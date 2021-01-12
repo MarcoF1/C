@@ -1,0 +1,26 @@
+Problem 1: Modulus
+
+For integers a, b, and M, we say that a and b are congruent modulo M if a-b is divisible by M. For positive integers, this is equivalent to saying that a and b have the same remainder upon dividing by M.
+
+Given N integers, find how many of them are congruent to m modulo M. It is guaranteed that M is positive and the integers have magnitude at most 1,000,000.
+
+INPUT FORMAT:
+
+Line 1: Three integers N m M
+Lines 2 to N+1: One integer per line
+
+SAMPLE INPUT (stdin):
+5 1 2
+1
+8
+21
+13
+42
+
+OUTPUT FORMAT:
+
+Line 1: The number of integers congruent to m modulo M
+SAMPLE OUTPUT (stdout):
+3
+
+(Hint: What happens when you do a % M if a is negative?)
