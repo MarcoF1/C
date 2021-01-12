@@ -1,3 +1,3 @@
 gcc Modulus.c
-./a.out
+./a.out <<< $(cat ModulusArgs.txt)
 rm a.out
